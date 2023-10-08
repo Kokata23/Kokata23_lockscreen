@@ -1,0 +1,137 @@
+
+*{ 
+    
+   
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(74 96 96);
+}
+
+.n23{
+    border: 8px solid black;
+    position: relative;
+    height:  95vh;
+    margin: 10px auto;
+    max-width: 350px;
+    border-radius: 37px;
+    overflow: hidden;
+/* background-color: rgb(56, 16, 100); */
+}
+/* .n23 .background{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+} */
+
+.body{
+    margin: 0px;
+    /* background-color: black; */
+}
+
+.head{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.btn-space{
+    padding: 7px 55px;
+    background-color: black;
+    border-radius: 23px;
+    overflow: hidden;
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+
+.navigation .nav{
+    font-size: 15px;
+    color: beige;
+    margin: 10px 0px;
+    padding: 3px 25px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navigation .nav .items{
+    display: flex;
+    gap: 8px;
+}
+
+.elements{
+    text-align: center;
+    color: #fff;
+    letter-spacing: 2px;
+    overflow: hidden;
+    margin-bottom: 600px;
+}
+
+.elements .time{
+    font-weight: 650;
+    margin-top: 7px;
+    font-size: 67px;
+}
+.elements .el{
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+
+
+ .butons{
+    margin-bottom: 7px;
+    gap: 175px;
+    left: 0px;
+    bottom: 23px;
+    position: absolute;
+    overflow: hidden;
+    padding: 0px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #fff;
+   
+
+}
+
+.butons .btn-1{
+    /* background-color: rgb(112, 99, 126); */
+    color: white;
+    padding: 14px 17px;
+    border-radius: 40px;
+    background-color: #0e2729a8;
+}
+.butons .btn-1:hover{
+    opacity: 0.5;
+}  
+
+.dev{
+    /* z-index: 2; */
+    border-radius: 23px;
+    left: 50%;
+    bottom: 6px;
+    transform: translate(-50%);
+    position: absolute;
+    width: 30%;
+    height: 5px;
+    background-color: #fff;
+}
+
+.img{
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
